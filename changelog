@@ -1,6 +1,9 @@
-Yiimp Install Scrypt v0.2 // 10.04.2020
-Thanks to cryptopool-builders !!!!!!!!
+Yiimp Install Scrypt v0.3 // September 2020
+Thanks to cryptopool-builders & Xavatar !!!!!!!!
 
+X11K algorithm support added on September 2020
+
+Xavatar's updates on 10.04.2020:
 Information =>
 * Works with Ubuntu Server 16.04 / 18.04
 * Update PHP 7.3

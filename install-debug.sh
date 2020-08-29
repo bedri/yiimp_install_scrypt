@@ -372,7 +372,7 @@
     
     # Compil Blocknotify
     cd ~
-    git clone https://github.com/tpruvot/yiimp
+    git clone https://github.com/bedri/yiimp
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     sudo make
@@ -1033,7 +1033,7 @@
     define('"'"'YAAMP_CREATE_NEW_COINS'"'"', false);
     define('"'"'YAAMP_NOTIFY_NEW_COINS'"'"', false);
     
-    define('"'"'YAAMP_DEFAULT_ALGO'"'"', '"'"'x11'"'"');
+    define('"'"'YAAMP_DEFAULT_ALGO'"'"', '"'"'x11k'"'"');
     
     define('"'"'YAAMP_USE_NGINX'"'"', true);
     
@@ -1077,11 +1077,13 @@
     // Sample custom stratum ports
     $configCustomPorts = array(
     //  '"'"'x11'"'"' => 7000,
+    //  '"'"'x11k'"'"' => 5000,
     );
     
     // mBTC Coefs per algo (default is 1.0)
     $configAlgoNormCoef = array(
     //  '"'"'x11'"'"' => 5.0,
+    //  '"'"'x11k'"'"' => 3.0,
     );
     ' | sudo -E tee /var/web/serverconfig.php >/dev/null 2>&1
 

@@ -8,6 +8,4 @@
  screen -dmS loop2 bash $WEB_DIR/loop2.sh
  screen -dmS blocks bash $WEB_DIR/blocks.sh
  screen -dmS debug tail -f $LOG_DIR/debug.log
- 
-
- 
+ screen -dmS stratum $STRATUM_DIR/run.sh x11k
