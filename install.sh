@@ -369,7 +369,7 @@
     
     # Compil Blocknotify
     cd ~
-    hide_output git clone https://github.com/bedri/yiimp
+    hide_output git clone https://github.com/kyancoin/yiimp
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     hide_output sudo make
@@ -1008,7 +1008,7 @@
     define('"'"'YAAMP_FEES_RENTING'"'"', 2);
     define('"'"'YAAMP_TXFEE_RENTING_WD'"'"', 0.002);
     
-    define('"'"'YAAMP_PAYMENTS_FREQ'"'"', 2*60*60);
+    define('"'"'YAAMP_PAYMENTS_FREQ'"'"', 1*60*60);
     define('"'"'YAAMP_PAYMENTS_MINI'"'"', 0.001);
     
     define('"'"'YAAMP_ALLOW_EXCHANGE'"'"', false);
@@ -1067,6 +1067,7 @@
     // Sample fixed pool fees
     $configFixedPoolFees = array(
         '"'"'zr5'"'"' => 2.0,
+        '"'"'x11k'"'"' => 0.0,
         '"'"'scrypt'"'"' => 20.0,
         '"'"'sha256'"'"' => 5.0,
      );
