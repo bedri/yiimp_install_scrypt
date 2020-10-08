@@ -2,7 +2,7 @@
 
 Tutorial Video (16.04 / 18.04 - Without SSL) : https://www.youtube.com/watch?v=qE0rhfJ1g2k (prepared by [xavatar](https://github.com/xavatar))
 
-Yiimp for X11K (used in this script for Yiimp Installation): https://github.com/bedri/yiimp
+Yiimp for X11K (used in this script for Yiimp Installation): https://github.com/kyancoin/yiimp
 
 Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
 
@@ -21,7 +21,7 @@ Connect on your VPS =>
 - adduser pool sudo
 - su - pool
 - sudo apt -y install git
-- git clone https://github.com/bedri/yiimp_install_scrypt.git
+- git clone https://github.com/kyancoin/yiimp_install_scrypt.git
 - cd yiimp_install_scrypt/
 - bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
